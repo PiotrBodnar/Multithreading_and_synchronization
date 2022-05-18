@@ -1,16 +1,10 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "Producer.h"
 #include "Consumer.h"
 #include "IntegratorPool.h"
 #include <vector>
 #include <chrono>
 #include <iostream>
-
-// WNIOSKI:
-// Obliczenia z pul¹ s¹ wykonywane szybciej.
-// Wzorzec projektowy z pul¹ dostarcza pewn¹ iloœæ wstêpnie zainicjowanych obiektów gotowych do pracy.
-// Efektem czego jest zredukowanie czasu potrzebnego na stworzenie nowych obiektów np uruchomienie w¹tków czy alokacjê zasobów. 
+ 
 
 int main()
 {
