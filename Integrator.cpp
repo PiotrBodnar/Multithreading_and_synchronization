@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "Integrator.h"
 
 Integrator::Integrator() : status(Integrator::Status::IDLE), step(0.0)
