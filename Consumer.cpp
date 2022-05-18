@@ -1,5 +1,3 @@
-// Adam Geppert, Piotr Bodnar Grupa 7
-
 #include "Consumer.h"
 
 Consumer::Consumer(Producer* producer) : producer(producer), avarage(0)
